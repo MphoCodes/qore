@@ -88,10 +88,17 @@
       </div>
     </div>
   </section>
+
+  <!-- Testimonials Section -->
+  <Testimonials />
 </template>
 
 <script>
+import Testimonials from '../components/Testimonials.vue'
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: {
+    Testimonials
+  }
 }
 </script>
